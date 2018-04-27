@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "watch": "gulp watch"
+  },
   "devDependencies": {
     "browser-sync": "^2.23.7",
     "gulp": "gulpjs/gulp#4.0",

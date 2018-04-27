@@ -22,7 +22,8 @@ gulp.task('style:bundle', () => {
 
 gulp.task('watch', () => {
   browserSync.init({
-    server: './src'
+    server: './src',
+    browser: 'chromium'
   })
   
   gulp.watch(blobs.sass,
